@@ -1,0 +1,37 @@
+.header-css{
+    background-image: url('../../../assets/images/backgrnd.png');
+    height : 500px;
+    background-position: center top;
+    // opacity: 0.6;
+    position: fixed;
+    top: 50px;
+    width: 1500px;
+    background-size:100% 100%;
+}
+
+.header-navbar{
+    background-color: rgb(71, 138, 110);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.navbar-nav li{
+    display:  inline-block;
+    padding: 0px 20px;
+    scrollbar-darkshadow-color: black;
+    font-style: italic bold;
+    font-weight: 400;
+}
+
+.navbar-nav li a {
+    transition: all 0.3s ease 0s;
+    align-content: center;
+    color: white;
+}
+
+.navbar-nav li a:hover{
+    // color : #0088a9
+    color: black;
+}
